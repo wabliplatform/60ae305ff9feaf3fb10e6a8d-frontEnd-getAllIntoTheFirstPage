@@ -1,4 +1,4 @@
-let apiUserApi = new TempApi.UserApi();import TempApi from '../src/index';window.onload = () => {apiUserApi.getAlluser((error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); const subDataElements = document.getElementById("i5kc").querySelectorAll( "[dataitem='true']" );
+let apiUserApi = new TempApi.UserApi();import TempApi from '../src/index';window.onload = () => {apiUserApi.getAlluser((error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); const subDataElements = document.getElementById("iohe").querySelectorAll( "[dataitem='true']" );
   data.forEach((item,i) => {
     if(subDataElements.length > i)
       {

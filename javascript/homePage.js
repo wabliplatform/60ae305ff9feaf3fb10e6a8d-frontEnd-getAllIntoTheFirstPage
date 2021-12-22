@@ -16,4 +16,4 @@ let apiUserApi = new TempApi.UserApi();import TempApi from '../src/index';window
         subDataElements[i].addEventListener('click',() => {{ location.href= '/ShowOneElement/'+data[data.length -i -1]._id+'';}} )
       }
     });
-    [...subDataElements].forEach((element,index) => {if(index >= data.length) subDataElements[index].remove()})}});};
+    /*[...subDataElements].forEach((element,index) => {if(index >= data.length) subDataElements[index].remove()})*/}});};
